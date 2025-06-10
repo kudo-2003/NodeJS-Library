@@ -18,7 +18,7 @@ const { networkInterfaces, loadavg,machine,hostname,homedir,platform,setPriority
 // console.log('Trả về ước tính về lượng song song mặc định mà một chương trình nên sử dụng. Luôn trả về giá trị lớn hơn 0:', availableParallelism());
 // console.log(`Trả về một mảng các đối tượng chứa thông tin về từng lõi CPU logic.
 //      Mảng sẽ trống nếu không có thông tin CPU nào khả dụng, chẳng hạn như nếu hệ thống tệp /proc không khả dụng.`, cpus());
-console.log('?', endianness());
+// console.log('Trả về một chuỗi xác định độ endian của CPU mà nhị phân Node.js được biên dịch:', endianness());
 console.log('?', freemem());
 console.log('?', getPriority());
 console.log('?', tmpdir());
