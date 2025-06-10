@@ -1,0 +1,25 @@
+const { networkInterfaces, loadavg,machine,hostname,homedir,platform,setPriority,tmpdir,getPriority,freemem,endianness,cpus, availableParallelism, version, type, release, userInfo, uptime, devNull, EOL, constants, arch, totalmem} = require('os');
+
+console.log('Hệ điều hành:', type());
+console.log('Phiên bản:', release());
+console.log('NodeJS OS:', version());
+console.log('?:', devNull);
+console.log('?:', EOL);
+console.log('?:', userInfo());
+console.log('?', uptime());
+console.log('?', constants);
+console.log('?', arch());
+console.log('?', totalmem());
+console.log('?', availableParallelism());
+console.log('?', cpus());
+console.log('?', endianness());
+console.log('?', freemem());
+console.log('?', getPriority());
+console.log('?', tmpdir());
+console.log('?', setPriority);
+console.log('?', platform());
+console.log('?', homedir());
+console.log('?', hostname());
+console.log('?', machine());
+console.log('?', loadavg());
+console.log('?', networkInterfaces());
