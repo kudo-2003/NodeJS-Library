@@ -1,0 +1,1 @@
+const { WASI} = require('wasi');
